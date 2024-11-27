@@ -1,0 +1,104 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: rgb(231, 8, 8);
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #de0808; /* Red header background */
+    color: rgb(252, 250, 250);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  /* Genres Container */
+  .genres-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns for smaller screens */
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  @media (min-width: 768px) {
+    .genres-container {
+      grid-template-columns: repeat(4, 1fr); /* Four columns for larger screens */
+    }
+  }
+  
+  /* Genre Card Styling */
+  .genre {
+    background-color: #111; /* Dark box */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.4); /* Red glow effect */
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .genre:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.6);
+  }
+  
+  /* Genre Image */
+  .genre-image {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+    
+    border: 3px solid #FF0000; /* Red border around the image */
+  }
+  
+  /* Genre Title */
+  .genre h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: white; /* White text */
+  }
+  
+  /* Buttons */
+  .genre a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF0000; /* Red button background */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .genre a:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

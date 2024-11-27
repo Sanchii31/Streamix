@@ -74,8 +74,8 @@ font-weight: 600 ;
 max-width: 650px ; 
 }
 
-.header-content h2{
-   font-size: 5 px;
+.header-content h3{
+   font-size: 15 px;
 font-weight:400 ;
 margin-bottom: 20px;
 }
@@ -105,36 +105,4 @@ margin-left: 20px;
    font-size: 16px;
    cursor: pointer;
 padding: 15px 30 px;
-}
-/*------------------------------features----------------------*/
-
-
-.features{
-   padding: 50px 12% ; 
-   font-size: 22px ;
-}
-
-.row{
-   display:flex;
-   width:100% ;
-   align-items:center ;
-   flex-wrap: wrap;
-   padding:50px 0 ;
-}
-
-.text-col{
-   flex-basis: 50%;
-   margin-bottom: 20px ;
-}
-
-.img-col{
-   flex-basis: 50%;
-   margin-bottom: 20px ;
-}
-
-.img-col img{
-   display: block;
-   width:90% ;
-   margin:auto;
-    
 }
