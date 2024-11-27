@@ -55,7 +55,7 @@ body {
   /* Genre Image */
   .genre-image {
     width: 100%;
-    max-width: 120px;
+    max-width: 500px;
     height: auto;
     margin-bottom: 15px;
     
